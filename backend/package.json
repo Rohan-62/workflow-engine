@@ -1,0 +1,23 @@
+{
+  "name": "workflow-engine-backend",
+  "version": "1.0.0",
+  "description": "Workflow Engine Backend - Halleyx Challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seed.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "nodemon": "^3.1.9"
+  }
+}
