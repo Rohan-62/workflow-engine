@@ -44,7 +44,7 @@ cp .env.example .env   # Modify MONGODB_URI if required
 ```bash
 cd frontend
 npm install
-cp .env.example .env   # VITE_API_URL defaults to http://localhost:5000/api
+cp .env.example .env   # VITE_API_URL defaults to https://workflow-engine-w0mt.onrender.com/api
 ```
 
 ### 3. Running Locally
