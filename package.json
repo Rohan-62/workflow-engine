@@ -1,0 +1,12 @@
+{
+  "name": "halleyx",
+  "version": "1.0.0",
+  "description": "Root configuration for deploying Halleyx Workflow Engine MERN app",
+  "scripts": {
+    "start": "npm start --prefix backend",
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
